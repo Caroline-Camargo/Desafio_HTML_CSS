@@ -2,9 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
     font-family: idroid;
-    src: url(fontes/idroid.otf);
+    src: url(../fontes/idroid.otf);
 }
-
+:root{
+    --corSombra:#0000002f;
+    --corFundo:#EBE5C5;
+    --corDestaque:#ffa9fb;
+    --cor04:#9209D6;
+    --cor05:#500675;
+    --cor06:#32034A;
+}
 
 *{
     margin: 0px;
@@ -14,16 +21,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     margin: 0px;
-    background-color: #EBE5C5;    
+    background-color: var(--corFundo);    
 }
 header{
     text-align: center;
-    background-image: linear-gradient(to top, #32034A, #9209D6);
+    background-image: linear-gradient(to top, var(--cor06), var(--cor04));
     padding: 10px;
     padding-top: 50px;
     color: white;
     font-size: 19px;
-    box-shadow: 0px 4px 7px 2px #0000002f;
+    box-shadow: 0px 4px 7px 2px var(--corSombra);
 }
 nav{
     text-align: justify;
@@ -33,7 +40,7 @@ nav{
 h1, h2{
     font-family: idroid, serif;
     font-style: normal;
-    color: #32034A;
+    color: var(--cor06);
     font-weight: normal;
     line-height: 1;
     margin-top: 10px;
@@ -47,37 +54,37 @@ section > h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 48px;
     font-weight: 500;
-    text-shadow: 2px 2px 1px #500675;
+    text-shadow: 2px 2px 1px var(--cor05);
 }
 h2{
-    background-image: linear-gradient(to right, #ffa9fb, white);
+    background-image: linear-gradient(to right, var(--corDestaque), white);
     font-size: 20px;
     padding: 2px;
     margin-bottom: 10px;
     padding-left: 10px;
 }
 header > section > p{
-    text-shadow: 2px 2px 1px #32034A;
+    text-shadow: 2px 2px 1px var(--cor06);
     margin-top: 20px;
 }
 a{
-    color: #32034A;
+    color: var(--cor06);
     font-weight: bold;
     padding: 10px;
     text-decoration: none;
 }
 a:hover{
-    color: #500675;
+    color: var(--cor05);
 }
 nav > a{
-    color: #ffa9fb;
+    color: var(--corDestaque);
 }
 strong{
-    color: #32034A;
+    color: var(--cor06);
 }
 nav > a:hover{
-    color: #32034A;
-    background-color: #ffa9fb;
+    color: var(--cor06);
+    background-color: var(--corDestaque);
     border-radius: 5px;
 }
 
@@ -95,12 +102,12 @@ main{
     max-width: 1000px;
     margin-bottom: 30px;
     border-radius: 0px 0px 10px 10px;
-    box-shadow: 0px 4px 7px 2px #0000002f;
+    box-shadow: 0px 4px 7px 2px var(--corSombra);
 }
 
 mark{
-    background-color: #ffa9fb;
-    color: #32034A;
+    background-color: var(--corDestaque);
+    color: var(--cor06);
 }
 mark::after{
     content: '🔗 ';
@@ -109,7 +116,7 @@ mark:hover{
     text-decoration: underline;
 }
 #video{
-    background-color: #32034A;
+    background-color: var(--cor06);
     margin: -20px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -127,17 +134,17 @@ mark:hover{
     height: 90%;
 }
 #extra{
-    background-color: #ffa9fb;
+    background-color: var(--corDestaque);
     margin-top: 30px;
     border-radius: 10px;
-    box-shadow: 4px 5px 7px 0px #0000002f;    
+    box-shadow: 4px 5px 7px 0px var(--corSombra);    
 }
 #extra > p {
     padding: 10px;
     margin-bottom: 15px;
 }
 .titulo{
-    background-color: #500675;
+    background-color: var(--cor05);
     color: white;
     border-radius: 10px 10px 0px 0px;
     padding-left: 10px;
@@ -167,7 +174,7 @@ li{
     padding-top: 20px;
 }
 footer{
-    background-color: #500675;
+    background-color: var(--cor05);
     color: white;
     text-align: center;
     font-size: 13px;
@@ -179,7 +186,7 @@ footer > p > a{
 }
 
 footer > p > a:hover{
-    color: #ffa9fb;
+    color: var(--corDestaque);
     text-decoration: underline;
 }
 
