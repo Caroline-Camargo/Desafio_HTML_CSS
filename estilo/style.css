@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
     font-family: idroid;
-    src: url(../fontes/idroid.otf);
+    src: url(../fontes/idroid.otf) format('opentype');
 }
 :root{
     --corSombra:#0000002f;
@@ -11,6 +11,10 @@
     --cor04:#9209D6;
     --cor05:#500675;
     --cor06:#32034A;
+
+    --fontePadrao: Arial, Helvetica, sans-serif;
+    --fonteDestaque: 'Bebas Neue', cursive; 
+    --fonteAndroid: idroid, cursive;
 }
 
 *{
@@ -18,7 +22,7 @@
     padding: 0px;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fontePadrao);
     text-align: justify;
     margin: 0px;
     background-color: var(--corFundo);    
@@ -32,13 +36,17 @@ header{
     font-size: 19px;
     box-shadow: 0px 4px 7px 2px var(--corSombra);
 }
+header > section > p{
+    max-width: 600px;
+    margin: auto;
+}
 nav{
     text-align: justify;
     margin-top: 50px;
     font-size: 16px;
 }
 h1, h2{
-    font-family: idroid, serif;
+    font-family: var(--fonteAndroid);
     font-style: normal;
     color: var(--cor06);
     font-weight: normal;
@@ -51,13 +59,13 @@ article > h1{
 }
 section > h1{
     color: white;
-    font-family: 'Bebas Neue', cursive;
+    font-family: var(--fonteDestaque);
     font-size: 48px;
     font-weight: 500;
     text-shadow: 2px 2px 1px var(--cor05);
 }
 h2{
-    background-image: linear-gradient(to right, var(--corDestaque), white);
+    background-image: linear-gradient(to right, var(--corDestaque), transparent);
     font-size: 20px;
     padding: 2px;
     margin-bottom: 10px;
@@ -78,6 +86,7 @@ a:hover{
 }
 nav > a{
     color: var(--corDestaque);
+    transition-duration: 0.5s;
 }
 strong{
     color: var(--cor06);
