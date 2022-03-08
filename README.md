@@ -11,6 +11,7 @@ VISUALIZAÇÃO EM DESKTOP E LAPTOPS:
 <img width="946" alt="image" src="https://user-images.githubusercontent.com/88254161/157292774-c632487e-d3ae-44d5-b626-76169b7b3ab9.png">
 
 VISUALIZAÇÃO EM DISPOSITIVOS MÓVEIS:
+
 <img width="331" alt="image" src="https://user-images.githubusercontent.com/88254161/157294058-f35408f7-e225-437c-bd78-db76702f29cd.png">
 
 <img width="328" alt="image" src="https://user-images.githubusercontent.com/88254161/157294179-b89771fe-184e-4db4-8666-594e4a46bcaa.png">
