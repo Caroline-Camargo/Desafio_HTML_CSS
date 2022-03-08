@@ -1,9 +1,10 @@
 # Desafio_HTML_CSS
 Desafio desenvolvido em HTML 5 e CSS 3 para as aulas do curso em vídeo (módulo 2)
 
-<img width="947" alt="image" src="https://user-images.githubusercontent.com/88254161/157290876-a82552d7-84af-4058-bb79-d71e18df0042.png">
-<img width="946" alt="image" src="https://user-images.githubusercontent.com/88254161/157291009-b8e1ac1b-45b7-4608-82ca-53c81fbfe6b0.png">
-
-<img width="329" alt="image" src="https://user-images.githubusercontent.com/88254161/157291474-7b85daa8-a0a5-4f1d-aa5f-db4544894a05.png">
-<img width="331" alt="image" src="https://user-images.githubusercontent.com/88254161/157291910-e3641517-1ef6-49a3-9a4d-2616766bb73b.png">
-< largura da img  = "331" alt = "imagem" src = " https://user-images.githubusercontent.com/88254161/157291659-cfa1fa68-923d-410d-8870-c2c55b480ddc.png " >  
+<img width="946" alt="image" src="https://user-images.githubusercontent.com/88254161/157292165-96ec1e82-aa80-4765-b269-53a8678478f4.png">
+<img width="946" alt="image" src="https://user-images.githubusercontent.com/88254161/157292293-f2e0d9eb-bfc8-428e-a167-8838862fa80d.png">
+<img width="946" alt="image" src="https://user-images.githubusercontent.com/88254161/157292381-26504b74-e8e4-44bb-bf26-40e5dd7f447c.png">
+<img width="946" alt="image" src="https://user-images.githubusercontent.com/88254161/157292509-b5c57e6b-31ce-478b-b404-464f0b650dcb.png">
+<img width="943" alt="image" src="https://user-images.githubusercontent.com/88254161/157292636-fe67b704-6eab-407c-8b9b-93e82b8890bc.png">
+<img width="944" alt="image" src="https://user-images.githubusercontent.com/88254161/157292720-96565031-56ca-4175-9b63-39b57c1e7cd8.png">
+<img width="946" alt="image" src="https://user-images.githubusercontent.com/88254161/157292774-c632487e-d3ae-44d5-b626-76169b7b3ab9.png">
